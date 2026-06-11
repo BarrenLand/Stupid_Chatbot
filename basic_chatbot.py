@@ -28,7 +28,7 @@ time.sleep(2)
 # Mengambil waktu saat ini
 now = datetime.datetime.now()
 
-# --- BAGIAN BERUBAH: Kamus Penerjemah Bahasa Indonesia ---
+# Ubah ke Bahasa Indonesia
 hari_indo = {
     "Monday": "Senin", "Tuesday": "Selasa", "Wednesday": "Rabu",
     "Thursday": "Kamis", "Friday": "Jumat", "Saturday": "Sabtu", "Sunday": "Minggu"
@@ -45,7 +45,6 @@ bulan = bulan_indo[now.strftime("%B")]
 
 # Cetak tanggal yang sudah diterjemahkan
 print(f"Hari ini adalah {hari}, {now.strftime('%d')} {bulan} {now.strftime('%Y, %H:%M:%S')}")
-# --------------------------------------------------------
 
 time.sleep(2)
 
