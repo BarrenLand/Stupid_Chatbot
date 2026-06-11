@@ -17,7 +17,7 @@ text = "Selamat datang di ChatBot sederhana saya!"
 for i, char in enumerate(text):
     color = colors[i % len(colors)]
     print(color + char + reset, end="", flush=True)
-    time.sleep(0.05)
+    time.sleep(0.1)
 
 print("\n")
 time.sleep(1.5)
